@@ -1,0 +1,35 @@
+.health{
+    display: flex;
+    background-color: rgb(202, 239, 252);
+    height: 28rem;
+}
+.text-h{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 30%;
+}
+.text-h>:nth-child(1){
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.text-h>:nth-child(2){
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 1.5rem;
+    margin-top: 10%;
+    margin-left: 12%;
+    cursor: pointer;
+}
+.grid div:hover{
+ transition: all .2s ease-in-out; 
+ transform: scale(1.2); 
+}

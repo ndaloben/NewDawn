@@ -1,0 +1,90 @@
+.hero{
+    display: flex;
+    height: 28.7rem; 
+    background: radial-gradient(cyan, white);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+
+}
+.text>:nth-child(1){
+    margin: 4rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    color: navy;
+    
+}
+
+.text>:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 4rem;
+    color: solid black;
+
+}
+.therapy {
+    margin-top: 4rem;
+    height: 17rem;
+    width: 12rem;
+    z-index: 2;
+    
+}
+.right-h{
+    position: absolute;
+    width: 12rem;
+    height: 13rem;
+    margin-top: 4rem;
+    right: 4rem;
+    border: 2px solid navy;
+    z-index: 1;
+}
+.right-g{
+    position: absolute;
+    width: 12rem;
+    height: 13rem;
+    margin-top: 2.5rem;
+    right: 2rem;
+    background:  blue;
+}
+.btn{
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    background: navy;
+    margin-left: 8rem;
+    bottom: 14rem;
+    width: 9rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 10px 0 navy;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+.hero>:nth-child(1){
+padding-left: 1rem;
+padding-top: 2rem;
+font-size: 2rem;
+}
+
+}
+
+
+@media screen and (max-width: 500px){
+    .hero>:nth-child(1){
+        padding-left: 1rem;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        }
+}

@@ -1,0 +1,11 @@
+.about{
+    background-color: azure;
+    height: 25rem;
+}
+.about>:nth-child(1){
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 50%;
+    font-size: 1.4rem;
+}
